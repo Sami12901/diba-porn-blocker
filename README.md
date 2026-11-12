@@ -1,11 +1,23 @@
-# Diba: Porn Blocker 🛡️
+<p align="center">
+  <img src="docs/logo.png" width="130" alt="Diba: Porn Blocker Logo" />
+</p>
 
-> **Fast, private, and tamper-resistant adult content blocker for Android, powered by a high-performance Rust core engine.**
+<h1 align="center">Diba: Porn Blocker 🛡️</h1>
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B-green.svg)](https://developer.android.com)
-[![Rust Core](https://img.shields.io/badge/Core-100%25%20Rust-orange.svg)](https://www.rust-lang.org)
-[![Build Status](https://github.com/Sami12901/diba-porn-blocker/actions/workflows/build-release.yml/badge.svg)](https://github.com/Sami12901/diba-porn-blocker/actions)
+<p align="center">
+  <strong>Fast, private, and tamper-resistant adult content blocker for Android, powered by a high-performance Rust core engine.</strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" /></a>
+  <a href="https://developer.android.com"><img src="https://img.shields.io/badge/Platform-Android%208.0%2B-green.svg" alt="Platform" /></a>
+  <a href="https://www.rust-lang.org"><img src="https://img.shields.io/badge/Core-100%25%20Rust-orange.svg" alt="Rust Core" /></a>
+  <a href="https://github.com/Sami12901/diba-porn-blocker/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-success.svg" alt="Release" /></a>
+</p>
+
+<p align="center">
+  <img src="docs/preview_mockup.png" width="100%" alt="Diba: Porn Blocker Android App Preview Mockup" />
+</p>
 
 ---
 
@@ -20,6 +32,14 @@ Unlike typical cloud-based blockers that route your web traffic through external
 - **Zero latency impact**
 
 All domain matching, explicit keyword scanning, search query tokenization, and obfuscation detection are executed inside **`diba-core`**, a native high-speed engine written in **pure Rust**.
+
+---
+
+## 📱 App Preview
+
+| Dashboard & Metrics | Protective Barrier Overlay |
+| :---: | :---: |
+| <img src="docs/logo.png" width="120" /><br><b>Real-time Rust Protection Shield</b><br>Live scan counters, threat metrics &amp; custom rule toggles | <img src="docs/logo.png" width="120" /><br><b>Full-Screen Content Barrier</b><br>Instantly blocks adult URLs, searches &amp; provides a safety exit |
 
 ---
 
@@ -74,7 +94,7 @@ flowchart TD
 ## 📥 Download APK
 
 You can download the latest signed production release APK directly from the **[GitHub Releases](https://github.com/Sami12901/diba-porn-blocker/releases)** page:
-- `diba-porn-blocker-v1.0.0-release.apk`
+- **[diba-porn-blocker-v1.0.0-release.apk](https://github.com/Sami12901/diba-porn-blocker/releases/download/v1.0.0/diba-porn-blocker-v1.0.0-release.apk)**
 
 ---
 
