@@ -1,0 +1,26 @@
+[package]
+name = "diba-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["Sami12901"]
+description = "High-performance adult content and explicit keyword filtering engine for Diba: Porn Blocker"
+license = "GPL-3.0"
+
+[lib]
+name = "diba_core"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+jni = { version = "0.21", default-features = false }
+aho-corasick = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+regex = "1.10"
+sha2 = "0.10"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

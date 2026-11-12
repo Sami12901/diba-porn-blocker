@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Diba: Porn Blocker</string>
+    <string name="tagline">Stay Focused. Stay Clean.</string>
+    <string name="accessibility_service_desc">Diba uses this service to detect and block explicit websites, adult searches, and prohibited content in real-time across web browsers.</string>
+    
+    <!-- Dashboard Status -->
+    <string name="status_protected">Protection Active</string>
+    <string name="status_disabled">Protection Paused</string>
+    <string name="status_protected_desc">Real-time Rust AI shield is scanning browser navigation &amp; explicit queries</string>
+    <string name="status_disabled_desc">Shield is turned off. Your device is unprotected.</string>
+    
+    <!-- Stats -->
+    <string name="stat_scanned">Total Scanned</string>
+    <string name="stat_blocked">Threats Blocked</string>
+    <string name="stat_rules">Active Rules</string>
+
+    <!-- Permissions Card -->
+    <string name="permission_required_title">Permissions Required</string>
+    <string name="perm_accessibility_title">Accessibility Service</string>
+    <string name="perm_accessibility_desc">Inspect URLs and searches in real-time</string>
+    <string name="perm_overlay_title">Display Over Other Apps</string>
+    <string name="perm_overlay_desc">Show full-screen block screen when threat is detected</string>
+    <string name="perm_device_admin_title">Uninstall Protection (Device Admin)</string>
+    <string name="perm_device_admin_desc">Prevent impulsive uninstallation or force-closing</string>
+    <string name="btn_enable">Enable</string>
+    <string name="status_enabled">Enabled</string>
+
+    <!-- Quick Features -->
+    <string name="feature_incognito">Block Incognito Mode</string>
+    <string name="feature_incognito_desc">Disallow private browsing tabs to prevent bypass</string>
+    <string name="feature_safesearch">Enforce SafeSearch</string>
+    <string name="feature_safesearch_desc">Force Google &amp; YouTube strict filters</string>
+    
+    <!-- Navigation / Buttons -->
+    <string name="title_blocklist_manager">Custom Blocklist &amp; Whitelist</string>
+    <string name="title_settings">Settings &amp; Security</string>
+    <string name="btn_custom_rules">Manage Custom Rules</string>
+    <string name="btn_security_pin">Set Master PIN</string>
+
+    <!-- Overlay Screen -->
+    <string name="overlay_blocked_title">Content Blocked</string>
+    <string name="overlay_blocked_subtitle">Diba: Porn Blocker protected you from explicit material.</string>
+    <string name="overlay_reason_label">Reason:</string>
+    <string name="overlay_quote">\"Self-control is strength. Right thought is mastery. Calmness is power.\"</string>
+    <string name="btn_overlay_leave">Take Me to Safety</string>
+
+    <!-- PIN Dialog -->
+    <string name="pin_dialog_title">Enter Security PIN</string>
+    <string name="pin_dialog_desc">Enter your 4-digit PIN to modify blocker settings</string>
+    <string name="pin_setup_title">Set 4-Digit Security PIN</string>
+    <string name="pin_incorrect">Incorrect PIN. Access denied.</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Rules Manager -->
+    <string name="tab_blacklist">Blocked Domains</string>
+    <string name="tab_whitelist">Whitelisted Domains</string>
+    <string name="tab_keywords">Blocked Keywords</string>
+    <string name="hint_enter_domain">e.g. example-adult-site.com</string>
+    <string name="hint_enter_keyword">e.g. inappropriate term</string>
+    <string name="btn_add_rule">Add Rule</string>
+</resources>
