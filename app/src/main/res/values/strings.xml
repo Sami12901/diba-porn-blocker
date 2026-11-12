@@ -25,6 +25,15 @@
     <string name="btn_enable">Enable</string>
     <string name="status_enabled">Enabled</string>
 
+    <!-- Restricted Settings Fix (Android 13/14/15) -->
+    <string name="restricted_fix_title">Fix \"App was denied access\"</string>
+    <string name="restricted_fix_desc">Android 13+ restricts accessibility for downloaded APKs. Tap here to open App Info, tap the 3 dots (⋮) in the top-right, and select \"Allow restricted settings\".</string>
+    <string name="btn_fix_restricted">Open App Info (⋮)</string>
+    <string name="dialog_restricted_title">Unlock Restricted Setting</string>
+    <string name="dialog_restricted_msg">Android restricts accessibility access for downloaded apps.\n\nTo enable:\n1. Tap \'Open App Info\' below\n2. Tap the 3 dots (⋮) in top-right corner\n3. Select \'Allow restricted settings\'\n4. Verify lock screen\n5. Return here and enable Accessibility</string>
+    <string name="btn_open_app_info_dialog">Open App Info (⋮)</string>
+    <string name="btn_go_accessibility">Go to Accessibility</string>
+
     <!-- Quick Features -->
     <string name="feature_incognito">Block Incognito Mode</string>
     <string name="feature_incognito_desc">Disallow private browsing tabs to prevent bypass</string>

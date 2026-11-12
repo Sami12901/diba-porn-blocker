@@ -265,6 +265,57 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- Restricted Setting Helper Item (Android 13+) -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRestrictedFix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="#2A2030"
+            app:cardCornerRadius="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/btnFixRestricted"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/restricted_fix_title"
+                        android:textColor="#F472B6"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/restricted_fix_desc"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnFixRestricted"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/btn_fix_restricted"
+                    android:textSize="11sp"
+                    app:cornerRadius="8dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
         <!-- Overlay Permission Item -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
